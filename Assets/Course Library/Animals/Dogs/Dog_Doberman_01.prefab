@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 490152}
   - component: {fileID: 9587414}
   - component: {fileID: 1626508610620161633}
+  - component: {fileID: 1690982383762824851}
   m_Layer: 0
   m_Name: Dog_Doberman_01
   m_TagString: Untagged
@@ -274,6 +275,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 2
+--- !u!114 &1690982383762824851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62efef67b9f6c344db608f344025fb1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBound
 --- !u!1 &106346
 GameObject:
   m_ObjectHideFlags: 0
